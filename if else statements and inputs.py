@@ -1,7 +1,6 @@
-# if else statements experiments, and exercises, as well as user input.
+# if else statements experiments exercises, and user input.
 
-name = input("What's your name? ")  # Ask user for their name
-# input is always a string
+name = input("What's your name? ")  # ask user for their name. input is always a string
 
 if name == "Lubabah":
     print("Hey genius Lubabah!")
@@ -17,7 +16,7 @@ else:
 
 
 number = input("Enter your favorite number: ")
-number = int(number)  # convert string to integer
+number = int(number)  # converting string to integer
 
 if number > 10: # ">" acts like "more than or equal to"
     print("that's a big number!")
@@ -53,3 +52,17 @@ elif favourite_colour == "turquoise":
   print("me too!")
 else:
   print("nice.")
+
+months = input("how many months until your birthday?")
+months = float(months) # convert months to a floating point number
+
+if months < 1: # must remember to put the colon
+    print("that's REALLY close, damn!")
+    
+elif 1 <= months <= 3: # months are now between 1 and 3
+    # must use elif instead of else, because "else" cannot take a condition, it is simply for anything not covered by "if" and "elif" statements. 
+    print("that's close, damn!")
+
+else:
+    print("ok :)")
+
