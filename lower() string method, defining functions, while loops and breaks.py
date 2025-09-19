@@ -9,6 +9,8 @@ if answer == "amazing":
   print("sure")
 elif answer == "sweet":
   print("cool")
+elif answer == "great":
+  print("yeah.")
 else:
   print("nice")
 
@@ -58,5 +60,6 @@ responses = ["That's awesome!", "I'm glad you're happy!", "Oh no, that's sad."]
 # lists are enclosed by square brackets. each value is separated by a comma. 
 
 print(random.choice(responses))  # picks a random response
+
 
 
