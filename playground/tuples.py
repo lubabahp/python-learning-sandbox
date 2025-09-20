@@ -62,7 +62,7 @@ print(dr_stone_characters[-3:3]) # output: i assume this doesn't work
 
 # looping through a tuple
 for item in my_tuple:
-    print(item) # this will just print each iten in the tuple, line by line.
+    print(item) # this will just print each iten in the tuple, line by line. just like range()
 
 
 # membership test
