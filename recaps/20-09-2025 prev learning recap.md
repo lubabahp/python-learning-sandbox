@@ -1,4 +1,4 @@
-### learning recap - 20th Sept 2025
+### previous learning recap - 20th Sept 2025 (breaking the inertia)
 - variables, printing variables
 - either quotation marks for strings
 - python starts counting from 0
