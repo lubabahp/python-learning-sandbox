@@ -1,4 +1,13 @@
-# fruits basket, made on 27-07-2025 on my phone (so i ended up not uploading it to github earlier)
+# fruits basket, made on 27-07-2025 on my phone (so i ended up not commiting to github earlier)
+
+"""
+Fruits Basket Game
+- User picks a fruit
+- Program responds with a message or randomly selects one
+- Demonstrates input handling, conditionals, random.choice
+"""
+# the above is a docstring, a special comment at the top of a Python file or function that explains what it does
+# usually the first thing in a file or function
 
 python:
 def fruits_basket():
