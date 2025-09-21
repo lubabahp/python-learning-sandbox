@@ -1,3 +1,9 @@
+"""
+Random Number Guessing Game!
+- User picks a number between 1 to 10, Python tells you if you guessed correct
+- Explores lists, while loops, random.choice()
+"""
+
 def random_number_guessing_game(): 
   # everything that belongs to the function is indented 4 spaces
 
@@ -25,3 +31,4 @@ def random_number_guessing_game():
 random_number_guessing_game()
 
 # that neatly encompasses one function!
+
