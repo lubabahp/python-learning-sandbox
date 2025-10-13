@@ -1,46 +1,5 @@
-Python Basics Notes
-Variables and Data Types
-
-Variables store data values. No need to declare type explicitly.
-
-Common types: int, float, str, bool, list, dict, tuple, set.
-
-age = 18           # int
-price = 19.99      # float
-name = "Alice"     # str
-is_student = True  # bool
-
-Control Flow
-If Statements
-
-Execute code blocks conditionally.
-
-if age >= 18:
-    print("Adult")
-else:
-    print("Minor")
-
-Loops
-
-Repeat code blocks.
-
-for loops iterate over sequences.
-
-while loops run while a condition is true.
-
-for i in range(5):
-    print(i)
-
-count = 0
-while count < 5:
-    print(count)
-    count += 1
-
-Functions
-
-Reusable blocks of code defined with def.
-
-def greet(name):
-    print(f"Hello, {name}!")
-
-greet("Bob")
+<h3> variables in python: </h3>
+- a variable is essentially a placeholder for info you would want python to recall later.
+- a single variable can't have spaces, otherwise python reads them as seperate variables.
+- can include letters, numbers, and underscores but can't start with a number, and is usually descriptive of the data.
+- 
