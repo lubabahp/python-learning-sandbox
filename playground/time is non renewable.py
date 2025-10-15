@@ -8,5 +8,7 @@ def time_is_non_renewable():
 
   elif users_feelings == "idk":
     print("I get it.")
+  else:
+    print("Yeah, defo.")
 
 time_is_non_renewable()
